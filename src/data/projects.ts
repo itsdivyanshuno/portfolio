@@ -1,6 +1,21 @@
 export const projects = [
 
   {
+    title: "Portfolio Website",
+
+    description:
+      "Modern portfolio built using Next.js, Tailwind and Framer Motion.",
+
+    tech: ["Next.js", "Tailwind", "Firebase"],
+
+    image: "/portfolio.jpg",
+
+    github: "https://github.com/itsdivyanshuno/portfolio",
+
+    demo: "https://portfolio-alpha-ochre-48.vercel.app/",
+  },
+
+  {
     title: "Student Database System",
 
     description:
@@ -16,33 +31,18 @@ export const projects = [
   },
 
   {
-    title: "HBTU Connect",
+    title: "📚 Allen PDF Library System",
 
     description:
-      "Student networking platform concept.",
+      "A PHP dashboard to upload and access subject-wise study PDFs.",
 
-    tech: ["Next.js", "Firebase"],
+    tech: ["PHP", "mySql", "AJAX", "jQuery", "CSS"],
 
-    image: "/hbtu.jpg",
+    image: "/git-allen.jpg",
 
-    github: "#",
+    github: "https://github.com/itsdivyanshuno/allen",
 
     demo: "#",
-  },
-
-  {
-    title: "Portfolio Website",
-
-    description:
-      "Modern portfolio built using Next.js, Tailwind and Framer Motion.",
-
-    tech: ["Next.js", "Tailwind", "Firebase"],
-
-    image: "/portfolio.jpg",
-
-    github: "https://github.com/itsdivyanshuno/portfolio",
-
-    demo: "https://portfolio-alpha-ochre-48.vercel.app/",
   },
 
 ];
