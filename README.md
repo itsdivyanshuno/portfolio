@@ -34,12 +34,12 @@ This is my personal developer portfolio showcasing projects, skills, and contact
 ---
 
 ### 📁 Projects Section
-![Projects](./public/git-projects.png)
+![Projects](./public/git-projects.jpg)
 
 ---
 
 ### 📩 Contact Section
-![Contact](./public/git-contact.png)
+![Contact](./public/git-contact.jpg)
 
 ---
 
