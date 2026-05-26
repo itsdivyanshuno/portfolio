@@ -26,15 +26,6 @@ This is my personal developer portfolio showcasing projects, skills, and contact
 
 ---
 
-## 🔗 Social Links
-
-- GitHub: https://github.com/itsdivyanshuno
-- LinkedIn: https://linkedin.com/in/itsdivyanshuno
-- Portfolio: https://portfolio-alpha-ochre-48.vercel.app/
-- Resume: (add your resume link here)
-
----
-
 ## 📸 Preview
 
 ### 🏠 Hero Section
@@ -203,7 +194,7 @@ Every push to main branch auto deploys the project.
 ## 📬 Contact
 
 GitHub: https://github.com/itsdivyanshuno  
-Email: your-email@gmail.com
+Email: itsdivyanshuno@gmail.com
 
 ---
 
