@@ -14,6 +14,10 @@ export default function Navbar() {
             About
           </a>
 
+          <a href="#skills" className="transition hover:text-white">
+            Skills
+          </a>
+
           <a href="#projects" className="transition hover:text-white">
             Projects
           </a>
