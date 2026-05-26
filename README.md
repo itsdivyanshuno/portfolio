@@ -16,16 +16,6 @@ This is my personal developer portfolio showcasing projects, skills, and contact
 
 ---
 
-## 📞 Personal Information
-
-- 👤 Name: Divyansh
-- 📍 Location: India
-- 📱 Mobile: +91-XXXXXXXXXX
-- 📧 Email: your-email@gmail.com
-- 💼 Role: Frontend Developer
-
----
-
 ## 📸 Preview
 
 ### 🏠 Hero Section
