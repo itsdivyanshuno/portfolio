@@ -1,6 +1,6 @@
 # 🚀 Modern Developer Portfolio
 
-A fully responsive and modern personal portfolio built using Next.js, Tailwind CSS, and Firebase, and deployed on Vercel.
+A fully responsive and modern personal portfolio built using **Next.js, Tailwind CSS, and Firebase**, deployed on **Vercel**.
 
 ---
 
@@ -10,31 +10,45 @@ A fully responsive and modern personal portfolio built using Next.js, Tailwind C
 
 ---
 
-## 👨‍💻 About This Project
+## 🧑‍💻 About
 
-This portfolio showcases my skills, projects, and contact system with a modern UI and full responsiveness.
+This is my personal developer portfolio showcasing projects, skills, and contact functionality using Firebase.
 
-It includes:
-- Responsive design for all devices
-- Firebase Firestore backend
-- Dynamic projects section
-- Functional contact form
+---
+
+## 📸 Preview
+
+### 🏠 Hero Section
+![Hero](./public/hero.png)
+
+---
+
+### 👨‍💻 About Section
+![About](./public/about.png)
+
+---
+
+### 🧠 Skills Section
+![Skills](./public/skills.png)
+
+---
+
+### 📁 Projects Section
+![Projects](./public/projects.png)
+
+---
+
+### 📩 Contact Section
+![Contact](./public/contact.png)
 
 ---
 
 ## ⚙️ Tech Stack
 
-### Frontend
 - Next.js (React Framework)
 - Tailwind CSS
-
-### Backend
 - Firebase Firestore
-
-### Deployment
-- Vercel
-
-### Version Control
+- Vercel (Deployment)
 - Git & GitHub
 
 ---
@@ -42,47 +56,47 @@ It includes:
 ## ✨ Features
 
 ### 🎯 UI / UX
-- Fully responsive layout (mobile, tablet, desktop)
+- Fully responsive design (mobile, tablet, desktop)
 - Modern glassmorphism navbar
-- Smooth scrolling navigation
-- Clean and minimal design
-- Hover animations and transitions
+- Smooth scroll navigation
+- Clean UI with spacing system
+- Hover animations
 
 ---
 
 ### 🧭 Navigation
-- Desktop navigation menu
+- Desktop navbar
 - Mobile hamburger menu
-- Section-based navigation (About, Skills, Projects, Contact)
+- Section-based navigation
 
 ---
 
 ### 🧑‍💻 Hero Section
 - Responsive typography scaling
-- Call-to-action buttons
-- Centered modern layout
+- CTA buttons
+- Clean centered layout
 
 ---
 
 ### 👨‍💻 About Section
 - Profile image support
 - Personal introduction
-- Responsive layout design
+- Responsive layout
 
 ---
 
 ### 🧠 Skills Section
 - Grid-based layout
 - Hover effects
-- Clean tech badge UI
+- Tech badges
 
 ---
 
 ### 📁 Projects Section
 - Dynamic project rendering
-- Image support for projects
-- GitHub + Live demo buttons
-- Responsive grid layout
+- Image preview support
+- GitHub + Live links
+- Responsive grid
 
 ---
 
@@ -98,9 +112,7 @@ It includes:
 
 ## 🔥 Firebase Setup
 
-Firestore is used to store contact form submissions.
-
-### Security Rules
+Firestore is used for contact form submissions.
 
 rules_version = '2';
 service cloud.firestore {
@@ -116,11 +128,13 @@ service cloud.firestore {
 
 ---
 
-## 📁 Project Structure
+## 📁 Clean Project Structure
 
+```
 src/
 ├── app/
 │   └── page.tsx
+│
 ├── components/
 │   ├── Navbar.tsx
 │   ├── Hero.tsx
@@ -129,11 +143,13 @@ src/
 │   ├── Projects.tsx
 │   ├── Contact.tsx
 │   └── Footer.tsx
+│
 ├── data/
 │   └── projects.ts
+│
 ├── lib/
 │   └── firebase.ts
-
+│
 public/
 ├── hero.png
 ├── about.png
@@ -141,38 +157,27 @@ public/
 ├── projects.png
 ├── contact.png
 ├── profile.jpeg
-└── project-images
+└── project-images/
+```
 
 ---
 
 ## 🚀 Deployment
 
-Deployed using Vercel with GitHub integration.
+Deployed using **Vercel** with GitHub integration.
 
-Every push to the main branch triggers automatic deployment.
+Every push to main branch auto deploys the project.
 
 ---
 
 ## 💡 What I Learned
 
-- Next.js component-based architecture
-- Tailwind CSS responsive design
+- Next.js component architecture
+- Tailwind responsive design
 - Firebase Firestore integration
 - React form handling
-- Git & GitHub workflow
-- Production deployment on Vercel
-
----
-
-## 📸 Screenshots
-
-Add your images in `/public` and update here:
-
-- Hero Section
-- About Section
-- Skills Section
-- Projects Section
-- Contact Section
+- Git workflow
+- Deployment on Vercel
 
 ---
 
@@ -186,6 +191,6 @@ Email: your-email@gmail.com
 ## ⭐ Support
 
 If you like this project:
-- ⭐ Star this repository
+- ⭐ Star this repo
 - 🍴 Fork it
 - 🚀 Share it
