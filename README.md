@@ -19,27 +19,27 @@ This is my personal developer portfolio showcasing projects, skills, and contact
 ## 📸 Preview
 
 ### 🏠 Hero Section
-![Hero](./public/hero.png)
+![Hero](./public/git-hero.jpg)
 
 ---
 
 ### 👨‍💻 About Section
-![About](./public/about.png)
+![About](./public/git-about.jpg)
 
 ---
 
 ### 🧠 Skills Section
-![Skills](./public/skills.png)
+![Skills](./public/git-skills.jpg)
 
 ---
 
 ### 📁 Projects Section
-![Projects](./public/projects.png)
+![Projects](./public/git-projects.png)
 
 ---
 
 ### 📩 Contact Section
-![Contact](./public/contact.png)
+![Contact](./public/git-contact.png)
 
 ---
 
