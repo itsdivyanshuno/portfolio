@@ -6,13 +6,13 @@ export const projects = [
     description:
       "Student management project with subject cards and structured data.",
 
-    tech: ["React", "Tailwind"],
+    tech: ["React", "Firebase", "Framer Motion"],
 
     image: "/student-db-v2.jpeg",
 
-    github: "#",
+    github: "https://github.com/itsdivyanshuno/hbtu-scorecard",
 
-    demo: "#",
+    demo: "https://hbtu-scorecard.vercel.app/",
   },
 
   {
@@ -36,13 +36,13 @@ export const projects = [
     description:
       "Modern portfolio built using Next.js, Tailwind and Framer Motion.",
 
-    tech: ["Next.js", "Tailwind"],
+    tech: ["Next.js", "Tailwind", "Firebase"],
 
     image: "/portfolio.jpg",
 
-    github: "#",
+    github: "https://github.com/itsdivyanshuno/portfolio",
 
-    demo: "#",
+    demo: "https://portfolio-alpha-ochre-48.vercel.app/",
   },
 
 ];
