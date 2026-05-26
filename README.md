@@ -6,7 +6,7 @@ A fully responsive and modern personal portfolio built using **Next.js, Tailwind
 
 ## 🌐 Live Demo
 
-👉 https://your-vercel-link.vercel.app
+👉 https://portfolio-alpha-ochre-48.vercel.app/
 
 ---
 
