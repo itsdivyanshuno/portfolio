@@ -1,36 +1,183 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Modern Developer Portfolio
 
-## Getting Started
+A fully responsive and modern personal portfolio built using Next.js, Tailwind CSS, and Firebase, deployed on Vercel.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 https://your-vercel-link.vercel.app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Preview Screenshots
 
-## Learn More
+Add images inside `/public` and update paths if needed.
 
-To learn more about Next.js, take a look at the following resources:
+### 🏠 Hero Section
+![Hero](./public/hero.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 👨‍💻 About Section
+![About](./public/about.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🧠 Skills Section
+![Skills](./public/skills.png)
 
-## Deploy on Vercel
+### 📁 Projects Section
+![Projects](./public/projects.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📩 Contact Section
+![Contact](./public/contact.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ⚙️ Tech Stack
+
+- Next.js (React Framework)
+- Tailwind CSS
+- Firebase Firestore
+- Vercel Hosting
+- Git & GitHub
+
+---
+
+## ✨ Features
+
+### UI / UX
+- Fully responsive design
+- Modern glass navbar
+- Smooth scrolling
+- Clean layout
+- Hover animations
+
+---
+
+### Navigation
+- Desktop navbar
+- Mobile hamburger menu
+- Section scrolling links
+
+---
+
+### Hero Section
+- Responsive text scaling
+- CTA buttons
+- Clean centered layout
+
+---
+
+### About Section
+- Profile image support
+- Personal introduction
+- Responsive layout
+
+---
+
+### Skills Section
+- Grid-based layout
+- Hover effects
+- Tech badges UI
+
+---
+
+### Projects Section
+- Dynamic project rendering
+- Image support
+- GitHub + Live buttons
+- Responsive grid
+
+---
+
+### Contact Section
+- Firebase form integration
+- Stores name, email, message
+- Timestamp support
+
+---
+
+## 🔥 Firebase Setup
+
+Firestore database stores contact messages.
+
+### Rules
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /messages/{docId} {
+      allow create: if true;
+      allow read, update, delete: if false;
+    }
+
+  }
+}
+
+---
+
+## 📁 Project Structure
+
+src/
+├── app/
+│   └── page.tsx
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Skills.tsx
+│   ├── Projects.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+├── data/
+│   └── projects.ts
+├── lib/
+│   └── firebase.ts
+
+public/
+├── hero.png
+├── about.png
+├── skills.png
+├── projects.png
+├── contact.png
+├── profile.jpeg
+
+---
+
+## 🚀 Deployment
+
+Deployed on Vercel with GitHub integration.
+
+Auto deploys on every push.
+
+---
+
+## 💡 What I Learned
+
+- Next.js components
+- Tailwind responsive design
+- Firebase integration
+- Form handling
+- Git workflow
+- Deployment on Vercel
+
+---
+
+## 📬 Contact
+
+GitHub: https://github.com/yourusername  
+Email: yourmail@gmail.com
+
+---
+
+## ⭐ Support
+
+If you like this project:
+- ⭐ Star the repo
+- 🍴 Fork it
+- 🚀 Share it
+
+---
+
+## 📌 License
+
+Open source project
