@@ -5,6 +5,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import AnimatedSection from "@/components/AnimatedSection";
 
 export default function Home() {
   return (
@@ -14,13 +15,21 @@ export default function Home() {
 
       <Hero />
 
-      <About />
+      <AnimatedSection id="about">
+        <About />
+      </AnimatedSection>
 
-      <Skills />
+      <AnimatedSection id="skills">
+        <Skills />
+      </AnimatedSection>
 
-      <Projects />
+      <AnimatedSection id="projects">
+        <Projects />
+      </AnimatedSection>
 
-      <Contact />
+      <AnimatedSection id="contact">
+        <Contact />
+      </AnimatedSection>
 
       <Footer />
 

@@ -1,11 +1,8 @@
-import Image from "next/image";
+import SafeImage from "@/components/SafeImage";
 
 export default function About() {
   return (
-    <section
-      id="about"
-      className="py-32"
-    >
+    <section className="py-32">
 
       <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-2">
 
@@ -15,7 +12,7 @@ export default function About() {
 
           <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-3">
 
-            <Image
+            <SafeImage
               src="/profile.jpeg"
               alt="Profile"
               width={350}
@@ -39,7 +36,7 @@ export default function About() {
 
           <h2 className="text-5xl font-bold">
 
-            Hi, I'm Divyansh
+            Hi, I&rsquo;m Divyansh
 
           </h2>
 

@@ -1,4 +1,6 @@
-export const projects = [
+import type { Project } from "@/types/project";
+
+export const projects: Project[] = [
 
   {
     title: "Portfolio Website",
@@ -31,7 +33,7 @@ export const projects = [
   },
 
   {
-    title: "📚 Allen PDF Library System",
+    title: "Allen PDF Library System",
 
     description:
       "A PHP dashboard to upload and access subject-wise study PDFs.",
@@ -42,7 +44,7 @@ export const projects = [
 
     github: "https://github.com/itsdivyanshuno/allen",
 
-    demo: "#",
+    demo: "",
   },
 
 ];

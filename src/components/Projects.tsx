@@ -1,12 +1,9 @@
-import Image from "next/image";
+import SafeImage from "@/components/SafeImage";
 import { projects } from "@/data/projects";
 
 export default function Projects() {
   return (
-    <section
-      id="projects"
-      className="py-32"
-    >
+    <section className="py-32">
 
       <div className="mx-auto max-w-6xl px-6">
 
@@ -29,7 +26,7 @@ export default function Projects() {
 
               <div className="mb-4 overflow-hidden rounded-xl bg-zinc-900">
 
-                <Image
+                <SafeImage
                   src={project.image}
                   alt={project.title}
                   width={500}
@@ -80,6 +77,8 @@ export default function Projects() {
 
                 <a
                   href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="rounded-full border border-white/10 px-4 py-2 text-sm transition hover:bg-white hover:text-black"
                 >
 
@@ -87,14 +86,16 @@ export default function Projects() {
 
                 </a>
 
-                <a
-                  href={project.demo}
-                  className="rounded-full bg-white px-4 py-2 text-sm text-black"
-                >
-
-                  Live Demo
-
-                </a>
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full bg-white px-4 py-2 text-sm text-black"
+                  >
+                    Live Demo
+                  </a>
+                )}
 
               </div>
 
